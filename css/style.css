@@ -1,0 +1,354 @@
+
+.line{
+    width: 20%;
+    height: 3px;
+}
+.home{
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.home .caption h1::after{
+    content: "|";
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    background-color: white;
+    display: block;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   animation-direction: alternate;
+   font-size: 1.5rem;
+   text-align: center;
+   margin-top: 10px;
+}
+.over-lay{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+@keyframes move{
+0%{
+    content: "w|";
+}
+1%{
+    content: "we|";
+}
+2%{
+    content: "web|";
+}
+3%{
+    content: "web |";
+}
+4%{
+    content: "web D|";
+}
+5%{
+    content: "web De|";
+}
+6%{
+    content: "web Des|";
+}
+7%{
+    content: "web Desi|";
+}
+8%{
+    content: "web Desig|";
+}
+9%{
+    content: "web Design|";
+}
+10%{
+    content: "web Designe|";
+}
+11%{
+    content: "web Designer|";
+}
+12%{
+    content: "web Designe|";
+}
+13%{
+    content: "web Desig|";
+}
+14%{
+    content: "web Desi|";
+}
+15%{
+    content: "web Des|";
+}
+16%{
+    content: "web De|";
+}
+17%{
+    content: "web D|";
+}
+18%{
+    content: "web |";
+}
+19%{
+    content: "we|";
+}
+20%{
+    content: "w|";
+}
+21%{
+    content: "we|";
+}
+22%{
+    content: "web|";
+}
+23%{
+    content: "web |";
+}
+24%{
+    content: "web D|";
+}
+25%{
+    content: "web De|";
+}
+26%{
+    content: "web Dev|";
+}
+27%{
+    content: "web Deve|";
+}
+28%{
+    content: "web Devel|";
+}
+29%{
+    content: "web Develo|";
+}
+30%{
+    content: "web Develop|";
+}
+31%{
+    content: "web Develope|";
+}
+32%{
+    content: "web Developer|";
+}
+33%{
+    content: "web Develope|";
+}
+34%{
+    content: "web Develop|";
+}
+35%{
+    content: "web Develo|";
+}36%{
+    content: "web Devel|";
+}
+37%{
+    content: "web Deve|";
+}
+38%{
+    content: "web Dev|";
+}
+39%{
+    content: "web De|";
+}
+40%{
+    content: "web D|";
+}
+41%{
+    content: "web |";
+}
+42%{
+    content: "web|";
+}
+43%{
+    content: "we|";
+}
+44%{
+    content: "w|";
+}
+45%{
+    content: "|";
+}
+46%{
+    content: "F|";
+}
+47%{
+    content: "Fr|";
+}
+48%{
+    content: "Fro|";
+}
+49%{
+    content: "Fron|";
+}
+50%{
+    content: "Front|";
+}
+51%{
+    content: "Fronte|";
+}
+52%{
+    content: "Fronted|";
+}
+53%{
+    content: "Fronted |";
+}
+54%{
+    content: "Fronted |";
+}
+55%{
+    content: "Fronted D|";
+}
+56%{
+    content: "Fronted De|";
+}
+57%{
+    content: "Fronted Dev|";
+}
+58%{
+    content: "Fronted Deve|";
+}
+59%{
+    content: "Fronted Devel|";
+}
+60%{
+    content: "Fronted Develo|";
+}
+61%{
+    content: "Fronted Develop|";
+}
+62%{
+    content: "Fronted Develope|";
+}
+63%{
+    content: "Fronted Developer|";
+}
+64%{
+    content: "Fronted Develope|";
+}
+65%{
+    content: "Fronted Develop|";
+}
+66%{
+    content: "Fronted Develo|";
+}
+67%{
+    content: "Fronted Devel|";
+}
+68%{
+    content: "Fronted Deve|";
+}
+69%{
+    content: "Fronted Dev|";
+}
+70%{
+    content: "Fronted De|";
+}
+71%{
+    content: "Fronted D|";
+}
+72%{
+    content: "Fronted |";
+}
+73%{
+    content: "Fronted|";
+}
+74%{
+    content: "Fronte|";
+}
+75%{
+    content: "Front|";
+}
+76%{
+    content: "Fron|";
+}
+77%{
+    content: "Fro|";
+}
+78%{
+    content: "Fr|";
+}
+79%{
+    content: "F|";
+}80%{
+    content: "|";
+}
+
+}
+nav .line{
+    width: 1.5rem;
+    height: 0.1rem;
+}
+nav .lines{
+width: 0;
+ transition: width;
+ transition-duration: 0.5s;
+
+}
+nav ul li:hover .lines{
+width: 1.5rem;
+}
+ .lines{
+    width: 5%;
+    height: 20%;
+}
+.SERVICES .card i{
+    width: 100px;
+    height: 100px;
+border-radius: 50% ;
+border: 10px rgb(13, 110, 253) solid;
+transition: all 0.5s;
+}
+.SERVICES .card:hover i {
+background-color:#0d6efd ;
+color: white;
+border:10px solid #81b2fb;
+}
+.works{
+    background-image:linear-gradient(rgba(13, 110, 253,0.8),rgba(13, 110, 253,0.8)) ,url(../images/counters-bg.jpg);
+ background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+.works i{
+    width: 90px;
+    height: 90px;
+border-radius: 50% ;
+border: 10px #b7d0f5 solid;
+transition: all 0.5s;
+}
+.portifolio .card img{
+    transition: all 1s;
+}
+.portifolio .card:hover img{
+transform: scale(1.1);
+
+}
+.overlay,.form{
+    background-image:linear-gradient(rgba(13, 110, 253,0.5),rgba(13, 110, 253,0.5)) ,url(../images/overlay-bg.jpg);
+ background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.blog .card-footer img{
+    width: 30px;
+}
+.form-floating{
+    max-height:250px;
+}
+.form .icons i{
+    border: #0d6efd solid 3px;
+    border-radius:50% ;
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s;
+}
+.form .icons i:hover{
+    background-color:#0d6efd ;
+color: white;
+border:3px solid #81b2fb;
+}
+.form .prag{
+    max-width: 350px;
+}
